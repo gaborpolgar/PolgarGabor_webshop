@@ -1,9 +1,9 @@
 <?php 
 session_start();
 $controller = "";
-$oldal = "product_list";
+$oldal = "termek_list";
 if (!isset($_GET['oldal'])) {
-    $controller = "controllers/product_list.php";
+    $controller = "controllers/termek_list.php";
 } else {
     $oldal = $_GET['oldal'];
     if (file_exists("controllers/$oldal.php")) {
