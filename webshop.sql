@@ -19,6 +19,6 @@ termek	CREATE TABLE `termek` (
  `nev` varchar(100) COLLATE utf8_hungarian_ci NOT NULL,
  `leiras` text COLLATE utf8_hungarian_ci NOT NULL,
  `ar` int(11) NOT NULL,
- `kep` text COLLATE utf8_hungarian_ci NOT NULL,
+ `kep` varchar(100) COLLATE utf8mb4_hungarian_ci NOT NULL
  PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_hungarian_ci
